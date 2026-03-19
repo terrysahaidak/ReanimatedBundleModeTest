@@ -4162,10 +4162,10 @@ is-symbol@^1.0.4, is-symbol@^1.1.1:
     has-symbols "^1.1.0"
     safe-regex-test "^1.1.0"
 
-is-tree-shakable@0.4.1:
-  version "0.4.1"
-  resolved "https://registry.yarnpkg.com/is-tree-shakable/-/is-tree-shakable-0.4.1.tgz#84f5396da9ac298bd1ff67d3590d9aecbcc2e9e9"
-  integrity sha512-3DzYTCnGqrWZTIox6fueyt8Q0RIrah2bdilQXSzEiJe0cE7GThZKDxfZZm1r0dVeoDZ50oj80+Zgqvb8vMqAHA==
+is-tree-shakable@0.5.0:
+  version "0.5.0"
+  resolved "https://registry.yarnpkg.com/is-tree-shakable/-/is-tree-shakable-0.5.0.tgz#4a94500dc8e81141befc896bf2efba30d232cc55"
+  integrity sha512-i47D82JU4FF0QWdMTnQi4sRcoQNx0VSfI4fIYndVTx6NxCn/Y5Qac9I3rtAWl9FQSl0KIGRnGeL35QrN/QUkrg==
   dependencies:
     "@rollup/plugin-node-resolve" "16.0.3"
     "@rollup/plugin-virtual" "3.0.2"
@@ -5605,10 +5605,10 @@ react-native-nitro-modules@^0.35.2:
   resolved "https://registry.yarnpkg.com/react-native-nitro-modules/-/react-native-nitro-modules-0.35.2.tgz#75fbcd42a73d93540c0069d42098d9dc6c12ea7e"
   integrity sha512-97cZcCh3ZAuWAfutel2Q3qLfc45XXh7F9Ei5tEjahP0kV3q8hQelwLIulKXmjN+f0JI5Zf/wCsfwwdVWYU2tKA==
 
-react-native-reanimated@^4.3.0-nightly-20260317-108689c96:
-  version "4.3.0-nightly-20260317-108689c96"
-  resolved "https://registry.yarnpkg.com/react-native-reanimated/-/react-native-reanimated-4.3.0-nightly-20260317-108689c96.tgz#d55ce5351aebd76ff62fc200a8b732140bc48c28"
-  integrity sha512-iVwcD0emFSyUJi2h/EXz7O6yss8mkS2jbsC14VZwyQZr1QI5X67g0CsriimQx23JU9jwgPrh8JzP/ZNrQn0XCw==
+react-native-reanimated@^4.3.0-nightly-20260318-d2b8286a6:
+  version "4.3.0-nightly-20260318-d2b8286a6"
+  resolved "https://registry.yarnpkg.com/react-native-reanimated/-/react-native-reanimated-4.3.0-nightly-20260318-d2b8286a6.tgz#24ef884ef36c5548dcbb78421177bcaf589813c3"
+  integrity sha512-5FqMF3BnUrOD0Pjra86aKF+oUREOdDgaNoORLP8riGyE3JLW5kxQRuCP5I/pJXKFnmGy22nJlnSit28wxDdBXg==
   dependencies:
     react-native-is-edge-to-edge "1.2.1"
     semver "7.7.3"
@@ -5648,10 +5648,10 @@ react-native-vision-camera@5.0.0-beta.7:
   resolved "https://registry.yarnpkg.com/react-native-vision-camera/-/react-native-vision-camera-5.0.0-beta.7.tgz#e03165e08950276902231ca3e9f7fe27779ae9fb"
   integrity sha512-JR24b/S/oC2DJ4i9zvH2hisPG3hmHfWPXDiwmeuBB3pMSqcNmddbpoitxscODwcFainVlIjY6Hk0jIENSySceg==
 
-react-native-worklets@^0.8.0-nightly-20260317-108689c96:
-  version "0.8.0-nightly-20260317-108689c96"
-  resolved "https://registry.yarnpkg.com/react-native-worklets/-/react-native-worklets-0.8.0-nightly-20260317-108689c96.tgz#d4564ad343d9fc62dfab9bb2cb761a36d40311c5"
-  integrity sha512-cMGRkl414GJzmIK85GUfsAYHXEzqPSJZpsRLHNGSun5TpqSwoEd11e07ZOOqw1Pyz0NOVOjTRxqEaLeUTdQGjw==
+react-native-worklets@^0.8.0-nightly-20260318-d2b8286a6:
+  version "0.8.0-nightly-20260318-d2b8286a6"
+  resolved "https://registry.yarnpkg.com/react-native-worklets/-/react-native-worklets-0.8.0-nightly-20260318-d2b8286a6.tgz#b8dccaa10981288e892c228c85b8a59b86428d4c"
+  integrity sha512-pOu5lykiyvByXbHBLP2NQ01xCJCIV6FzCJql98TmILZMK1WrbjxarQMA3hIetBtlrHL+tWIfdbeei/pu78owPQ==
   dependencies:
     "@babel/plugin-transform-arrow-functions" "7.27.1"
     "@babel/plugin-transform-class-properties" "7.27.1"
@@ -5663,7 +5663,7 @@ react-native-worklets@^0.8.0-nightly-20260317-108689c96:
     "@babel/plugin-transform-unicode-regex" "7.27.1"
     "@babel/preset-typescript" "7.27.1"
     convert-source-map "2.0.0"
-    is-tree-shakable "0.4.1"
+    is-tree-shakable "0.5.0"
     semver "7.7.3"
 
 react-native@0.84.1:
