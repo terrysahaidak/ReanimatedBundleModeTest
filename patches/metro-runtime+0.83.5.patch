@@ -12,3 +12,17 @@ index 3e2652d..47de354 100644
    if (global.globalEvalWithSourceUrl) {
      global.globalEvalWithSourceUrl(code, sourceURL);
    } else {
+diff --git a/node_modules/metro-runtime/src/modules/HMRClient.js.flow b/node_modules/metro-runtime/src/modules/HMRClient.js.flow
+index ef6c214..76ff4e1 100644
+--- a/node_modules/metro-runtime/src/modules/HMRClient.js.flow
++++ b/node_modules/metro-runtime/src/modules/HMRClient.js.flow
+@@ -18,6 +18,9 @@ const EventEmitter = require('./vendor/eventemitter3');
+ type SocketState = 'opening' | 'open' | 'closed';
+ 
+ const inject = ({module: [id, code], sourceURL}: HmrModule) => {
++  if (global.__workletsModuleProxy?.propagateModuleUpdate) {
++    global.__workletsModuleProxy.propagateModuleUpdate(code, sourceURL);
++  }
+   // Some engines do not support `sourceURL` as a comment. We expose a
+   // `globalEvalWithSourceUrl` function to handle updates in that case.
+   if (global.globalEvalWithSourceUrl) {

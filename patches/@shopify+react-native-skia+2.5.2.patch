@@ -1,0 +1,14 @@
+diff --git a/node_modules/@shopify/react-native-skia/src/sksg/Container.native.ts b/node_modules/@shopify/react-native-skia/src/sksg/Container.native.ts
+index f7e224f..86e9f46 100644
+--- a/node_modules/@shopify/react-native-skia/src/sksg/Container.native.ts
++++ b/node_modules/@shopify/react-native-skia/src/sksg/Container.native.ts
+@@ -10,6 +10,9 @@ import { visit } from "./Recorder/Visitor";
+ import "../skia/NativeSetup";
+ import "../views/api";
+ 
++// create local reference for `strictGlobal` option in Worklets
++const SkiaViewApi = globalThis.SkiaViewApi;
++
+ const nativeDrawOnscreen = (
+   nativeId: number,
+   recorder: JsiRecorder,
